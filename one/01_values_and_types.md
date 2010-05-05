@@ -1,5 +1,5 @@
 !SLIDE 
-# The Elements of JavaScript
+# The Elements of JavaScript Programming
 
 !SLIDE
 # 1: Values & Types

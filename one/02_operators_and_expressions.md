@@ -39,6 +39,7 @@
 * `==` and `!=` perform _type coercion_
 * Use `===` and `!==` for equality and inequality tests
 * `&&` and `||` are short-circuit operators
+* Short-circuit operations evaluate to the stopping expression
 
 !SLIDE bullets incremental
 # Expressions
