@@ -53,3 +53,13 @@
 ![JavaScript syntax diagram for expressions](expressions_syntax_diagram.png)
 
 _Source: _JavaScript: The Good Parts _by Doug Crockford_
+
+!SLIDE smbullets incremental
+# Operator precedence
+
+* The set of operators has a _partial order_
+* `*` has a higher precedence than `+`
+* `4 + 3 * 2 === 10`
+* In general, arithmetic operators have high precedence
+* Logical operators have low precedence
+* Use parentheses to convey intent in long expressions
