@@ -22,7 +22,28 @@
 * Object
 * Function
 
-!SLIDE bullets incremental
+!SLIDE code
+
+    typeof this.doesnt_exist; // -> "undefined"
+    typeof false;             // -> "boolean"
+    typeof true;              // -> "boolean"
+    typeof 1;                 // -> "number"
+    typeof 1.01;              // -> "number"
+    typeof 1e6;               // -> "number"
+    typeof "foo";             // -> "string"
+    typeof {};                // -> "object"
+    typeof function() {};     // -> "function"
+
+!SLIDE code
+
+    typeof Infinity;          // -> "number"
+    typeof NaN;               // -> "number"
+    typeof null;              // -> "object"
+    typeof [];                // -> "object"
+    typeof /^.*$/;            // -> "function"
+    typeof typeof foo;        // -> "string"
+
+!SLIDE bullets
 # Undefined
 
 * Only one value, `undefined`
