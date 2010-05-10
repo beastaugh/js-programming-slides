@@ -1,7 +1,7 @@
 !SLIDE
 # 1: Values & Types
 
-!SLIDE smbullets incremental
+!SLIDE smbullets
 # Examples of values
 
 * `5`
@@ -49,13 +49,13 @@
 * Only one value, `undefined`
 * Declared but uninitialised variables have this value
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # Booleans
 
 * Only two values
 * `true` and `false`
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # Numbers
 
 * Integers: `0`, `5`
@@ -63,7 +63,7 @@
 * `Infinity`
 * `NaN`
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # Strings
 
 * `"Foo"`
@@ -79,8 +79,9 @@
 * Regular expressions: `/^(foo|bar)$/`
 * `null`
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # Functions
 
 * Functions are _callable_
+* `(function() {})()` creates a function and then calls it
 * Functions are also objects
