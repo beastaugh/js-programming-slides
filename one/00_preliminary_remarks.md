@@ -8,5 +8,6 @@
 # JavaScript...
 
 * is an _interpreted_ language
-* is a _dynamically typed_ language
+* is _dynamically typed_
 * has a _prototypal_ object system
+* is _lexically scoped_
