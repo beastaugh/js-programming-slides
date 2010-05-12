@@ -1,1 +1,4 @@
-[ {"section":"one"} ]
+[
+    {"section": "one"},
+    {"section": "two"}
+]
