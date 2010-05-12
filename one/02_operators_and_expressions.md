@@ -33,13 +33,26 @@
 * Member operators
 * Special operators
 
-!SLIDE bullets incremental
-# Operator gotchas
+!SLIDE smbullets incremental
+# Type coercion and truthiness
 
-* `==` and `!=` perform _type coercion_
-* Use `===` and `!==` for equality and inequality tests
+* Comparison operators perform _type coercion_
+* `>`, `<`, `>=`, `<=`, `==`, `!=`
+* `==` uses an equality comparison algorithm
+* Strict equality operators `===` and `!==` check for type and value equality
+* Logical operators and conditionals check for _truthiness_
+* `false`, `undefined`, `NaN`, `''`, `0` and `null` are _falsy_
+* Every other value is _truthy_
+
+!SLIDE smbullets incremental
+# Short circuits
+
 * `&&` and `||` are short-circuit operators
-* Short-circuit operations evaluate to the stopping expression
+* Short-circuit operations evaluate to the _stopping expression_
+* `5 || 6` evaluates to `5`
+* `undefined || null` evaluates to `null`
+* `"foo" && "bar"` evaluates to `"bar"`
+* `NaN && true` evaluates to `NaN`
 
 !SLIDE bullets incremental
 # Expressions
