@@ -1,5 +1,5 @@
 !SLIDE
-# 4: Objects and Methods
+# 4: Objects & Methods
 
 !SLIDE smbullets incremental
 # Objects

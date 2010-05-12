@@ -1,5 +1,5 @@
 !SLIDE
-# 3: Statements and Functions
+# 3: Statements & Functions
 
 !SLIDE smbullets incremental
 # Statements
