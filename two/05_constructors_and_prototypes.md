@@ -29,16 +29,3 @@
 * `(function() {}) instanceof Function` evaluates to `true`
 * And so does `(function() {}) instanceof Object`...
 * ...because `Object` is in the prototype chain of the function
-
-!SLIDE code highlight execute
-    MyClass = function() {};
-    MyClass.prototype = {
-        foo: 1,
-        bar: 2
-    };
-    
-    MySubClass = function() {};
-    MySubClass.prototype = MyClass.prototype;
-    
-    myObject = new MySubClass();
-    alert(myObject instanceof MyClass);
