@@ -37,3 +37,12 @@
 * `delete foo['bar']` works too
 * Or `delete foo[0]` on an array
 * Doesn't work on variables!
+
+!SLIDE smbullets incremental
+# Deleting inherited properties
+
+* Properties inherited from a prototype can't be deleted
+* `delete` always evaluates to `true`...
+* ...unless a property can't be deleted
+* In which case it evaluates to `false`
+* The property can be deleted directly from the prototype
