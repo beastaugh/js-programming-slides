@@ -15,7 +15,7 @@
 
 * Enumerate the properties of an object with `for...in`
 * The specification _doesn't_ guarantee order
-* But in practice, all JS interpreters use _insertion order_
+* But in practice, all JS interpreters use _definition order_
 * Property names can be strings or numbers
 * But keys are converted to strings
 * Some things that are syntax errors when using object literals become legal
@@ -24,7 +24,16 @@
 !SLIDE smbullets incremental
 # `hasOwnProperty`
 
-* Use: `object.hasOwnProperty(someName)`
-* Does a property belong to an object?
+* `object.hasOwnProperty(someName)`
+* Does the property belong to an object?
 * Or is it just borrowed from somewhere else?
 * I.e. further up the prototype chain
+
+!SLIDE smbullets incremental
+# `delete`
+
+* Remove properties from objects with the `delete` operator
+* E.g. `delete foo.bar` on an object
+* `delete foo['bar']` works too
+* Or `delete foo[0]` on an array
+* Doesn't work on variables!
