@@ -9,3 +9,4 @@ A series of seminars on JavaScript programming.
 4.  Objects & Methods
 5.  Constructors & Prototypes
 6.  Handling Objects
+7.  Arrays
